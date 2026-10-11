@@ -1,0 +1,21 @@
+#countlabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: 'Courier New', Courier, monospace;
+}
+#bc{
+    text-align: center;
+}
+.b{
+    padding: 10px 20px;
+    font-size: 2em;
+    color: black;
+    background-color: tomato;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.b:hover{
+    background-color: red;
+}
