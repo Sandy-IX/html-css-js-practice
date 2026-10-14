@@ -8,13 +8,13 @@ function convert(){
     if(toc.checked){
         temp = Number(myinput.value);
         temp = (temp -32) * (5/9) ;
-        result.textContent = `${temp}°C`;
+        result.textContent = temp.toFixed(4) + "C"
 
     }
     else if(tof.checked){
         temp = Number(myinput.value);
         temp = temp * 9/5 + 32;
-        result.textContent = `${temp}°F`;
+        result.textContent = temp.toFixed(4) + "°F"
     }
     else{
         result.textContent = `Select a unit`;
