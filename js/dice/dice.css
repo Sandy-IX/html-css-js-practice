@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    color: turquoise;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+button{
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: tomato;
+    cursor: pointer;
+}
+button:hover{
+    background-color: crimson;
+}
+button:active{
+    background-color:red;
+}
+input{
+    font-size: 2rem;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border : 2px solid black;
+    font-weight: bold;
+}
+#images{
+    margin: 15px;
+}
+#images img{
+    width: 120px;
+    height: auto;
+    margin: 5px;
+}
